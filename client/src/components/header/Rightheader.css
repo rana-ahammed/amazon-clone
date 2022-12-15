@@ -1,0 +1,51 @@
+.leftheader{
+    width: 250px;
+    height: auto;
+}
+
+.leftheader .left-nav{
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    padding-bottom: 10px;
+}
+
+.leftheader .left-nav h3{
+    margin-left: 10px;
+    margin-top: 32px;
+    font-style: italic;
+    font-weight: 500;
+    color: #fff;
+}
+
+.leftheader .avatar{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.leftheader .avatar2{
+    cursor: pointer;
+    background-color: #1365cf;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.nav-btn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.nav-btn a{
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #131921;
+}
+
+.nav-btn .flag{
+    display: flex;
+    align-items: center;
+}
