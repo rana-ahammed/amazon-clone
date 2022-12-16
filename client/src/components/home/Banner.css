@@ -1,8 +1,16 @@
-.banner-img {
+.banner-img{
   width: 100vw;
   height: 280px;
 }
 
-carousel {
+.carasousel{
   margin-top: 10;
+}
+
+
+@media (max-width:768px){
+  .banner_img{
+      object-fit: cover;
+      height: 180px;
+  }
 }
